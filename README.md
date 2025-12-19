@@ -1,18 +1,11 @@
-# 🕹️ Tetris - Classic Brick Game
-A modern, lightweight implementation of the legendary Tetris game, built with HTML5 Canvas, CSS3, and Vanilla JavaScript. This project focuses on smooth performance, classic mechanics, and a clean user interface.🚀 
-# ✨ Features
-- Classic Gameplay: Traditional Tetris mechanics including rotation, line clearing, and increasing difficulty.
-- Responsive Design: Playable on both desktop and mobile devices.
-- Score System: Tracks your current score and cleared lines.
-- Preview Window: See the next upcoming block to plan your strategy.
-- Smooth Animations: Visual feedback for clearing lines and block movement.
-- Ghost Piece: Optional visual guide showing where the block will land (if implemented).
-# 🛠️ Built With
-- HTML5 - Semantic structure and Canvas API for rendering.
-- CSS3 - Modern styling and layout (Flexbox/Grid).JavaScript (ES6+) - Game logic, physics, and state management.
-# 🎮 How to Play
-The goal is to complete horizontal lines of blocks. As you clear lines, the speed increases!
-KeyActionArrow Up / WRotate PieceArrow Left / AMove LeftArrow Right / DMove RightArrow Down / SSoft Drop (Move down faster)SpaceHard Drop (Instant land)PPause / Resume📸 Screenshots🤝 ContributingContributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.Fork the ProjectCreate your Feature Branch (git checkout -b feature/AmazingFeature)Commit your Changes (git commit -m 'Add some AmazingFeature')Push to the Branch (git push origin feature/AmazingFeature)Open a Pull Request📄 LicenseDistributed under the MIT License. See LICENSE for more information.
+# 🕹️ Pico-Assembly-Tetris
+A high-performance, bare-metal Tetris implementation written entirely in ARM Assembly (Thumb-2) for the Raspberry Pi Pico (RP2040). This project demonstrates low-level hardware interaction, direct memory access, and efficient game logic without the overhead of a high-level language or OS.
 
+# 🛠️ Technical Overview
+Language: 100% ARM Assembly (Assembly Language).
 
+Architecture: ARM Cortex-M0+ (RP2040).
 
+Input: Physical push-buttons via GPIO interrupts/polling.
+
+Clock: Standard 125MHz system clock (optimized for low power).
